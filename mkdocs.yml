@@ -45,11 +45,7 @@ nav:
 
 extra:
   generator: false  # Hides "Made with MkDocs" message
-  social:
-    - icon: fontawesome/brands/github
-      link: https://github.com/YOUR_GITHUB
-    - icon: fontawesome/brands/linkedin
-      link: https://linkedin.com/in/YOUR_LINKEDIN
+
 
 
 plugins:
