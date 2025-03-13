@@ -1,0 +1,22 @@
+version: 2
+formats: []  # Disables PDF/EPUB builds (optional)
+build:
+  os: ubuntu-22.04
+  tools:
+    python: "3.11"
+    pip: "latest"
+  jobs:
+    pre_install:
+      - echo "Building ERP Questionnaire on ReadTheDocs"
+    post_build:
+      - echo "ReadTheDocs build completed!"
+
+python:
+  install:
+    - requirements: docs/requirements.txt
+
+sphinx:
+  configuration: docs/conf.py
+
+mkdocs:
+  configuration: mkdocs.yml
