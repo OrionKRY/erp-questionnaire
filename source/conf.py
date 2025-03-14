@@ -28,7 +28,6 @@ html_show_sphinx = False  # Hides "Made with Sphinx" text
 html_theme_options = {
     "sidebar_hide_name": False,  # Show project name in the sidebar
     "footer_icons": [],
-    "analytics_id": "G-XXTB5Q05GY",  # Google Analytics Tracking ID
     "light_css_variables": {  
         "color-footer-text": "transparent",  # Hides footer text
         "color-footer-background": "transparent",  # Makes background blend in
