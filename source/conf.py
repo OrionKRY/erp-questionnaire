@@ -30,6 +30,7 @@ html_theme_options = {
     "light_css_variables": {  
         "color-footer-text": "transparent",  # Hides footer text
         "color-footer-background": "transparent",  # Makes background blend in
+        "analytics_id": "G-XXTB5Q05GY"  # Replace with your actual Google Analytics ID
     },
 }
 
