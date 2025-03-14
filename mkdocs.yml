@@ -1,0 +1,52 @@
+site_name: "Subsystem Discovery Questionnaire"
+site_description: "A guide to gather high level details on subsystems"
+site_author: "KR"
+
+theme:
+  name: "material"
+  features:
+    - navigation.tabs
+    - navigation.expand
+    - navigation.instant
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.code.annotate
+    - content.tooltips
+  palette:
+    scheme: default  # Light theme
+    primary: indigo  # Close to RBC Blue
+    accent: amber  # RBC Gold/Yellow
+  font:
+    text: "Poppins"
+    code: "Source Code Pro"
+  icon:
+    repo: fontawesome/brands/github
+  favicon: "img/favicon.ico"
+
+
+
+
+nav:
+  - Home: index.md
+  - Questionnaire:
+      - "1️⃣ General System Information": general.md
+      - "2️⃣ Functional Scope": functional.md
+      - "3️⃣ Financial Impact on ERP": financial.md
+      - "4️⃣ Data Flow & Integration": data.md
+      - "5️⃣ Compliance & Security": compliance.md
+      - "6️⃣ System Performance & Dependencies": system.md
+      - "7️⃣ Open Issues & Future Roadmap": roadmap.md
+  - Integration Guide: integration.md
+  - "Compliance Overview": compliance-overview.md
+
+
+
+
+extra:
+  generator: false  # Hides "Made with MkDocs" message
+
+
+
+plugins:
+  - search
